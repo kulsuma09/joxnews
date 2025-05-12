@@ -165,9 +165,13 @@
   text-transform: capitalize;
   font-size: 14px;
 }
+.header_area .rih .c_art{
+  margin-right: 30px;
+}
 .header_area .rih .c_art,
 .header_area .right_ctn li .c_art{
   color: #000;
+
 }
 .header_area .rih .c_art span,
 .header_area .right_ctn li .c_art span{
