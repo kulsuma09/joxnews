@@ -284,6 +284,7 @@
 .latest_news_area .lt_news_ctn .titel h4{
   font-size: 26px;
 }
+.podcast_area .overly_ctn h4,
 .technology_area .tech_ctn .tech_img .overly_ctn h4,
 .technology_area .tech_left .tech_img .overly_ctn h4,
 .editor_picks_area .editor_sub_ctn .titel h4,
@@ -292,6 +293,7 @@
   font-size: 18px;
   color: #000;
 }
+.podcast_area .overly_ctn .more_info span,
 .technology_area .tech_ctn .tech_img .overly_ctn .more_info span,
 .technology_area .tech_left .tech_img .overly_ctn .more_info span,
 .editor_picks_area .editor_sub_ctn .titel .more_info span,
@@ -302,6 +304,7 @@
   text-transform: capitalize;
   font-size: 16px;
 }
+.podcast_area .overly_ctn .more_info .topic,
 .technology_area .tech_ctn .tech_img .overly_ctn .more_info .topic,
 .technology_area .tech_left .tech_img .overly_ctn .more_info .topic,
 .editor_picks_area .editor_sub_ctn .titel .more_info .topic,
@@ -367,12 +370,56 @@
 .blockchain_area{
   background: #cf412b;
 }
+.blockchain_area .block_chain_text_ctn{
+  margin-top: 334px;
+}
 
+.blockchain_area .block_chain_text_ctn h6 {
+  font-size: 26px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.blockchain_area .block_chain_text_ctn p{
+  font-size: 16px;
+  color: #fff;
 
+}
+.blockchain_area .block_chain_text_ctn .reporter{
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+
+}
+.blockchain_area .block_chain_text_ctn .reporter img{
+  max-width: 45px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+.blockchain_area .block_chain_text_ctn .reporter .postion p{
+  margin-bottom: 6px;
+  color: #fff;
+}
+.blockchain_area .block_chain_text_ctn .reporter .postion .name{
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.blockchain_area .block_chain_text_ctn .reporter .postion .date{
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+}
 
 
 /* Editor Picks Area CSS */
 
+.artical_area .artical_heading h2,
 .editor_picks_area .editor_section_titel .left_titel h2{
   font-size: 40px;
   color: #000;
@@ -437,15 +484,215 @@
 .Staf_area .staf_ctn .stf_img img{
   margin-bottom: 15px;
 }
+.podcast_area .podcast_ctn .info h6,
 .Staf_area .staf_ctn .stf_img .info h6{
 
   font-size: 18px;
   text-transform: capitalize;
   color: #000;
 }
+.podcast_area .podcast_ctn .info p,
 .Staf_area .staf_ctn .stf_img .info p{
   font-size: 16px;
   text-transform: capitalize;
   color: #6d6d6d;
   
+}
+
+
+
+.artical_area .artical_ctn{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+.artical_titel {
+  width: 84%;
+}
+.artical_area .artical_ctn .artical_titel .more_info h4{
+    font-size: 26px;
+    color: #000;
+    margin-top: 20px;
+}
+.artical_area .artical_ctn .artical_titel a{
+  color: #cf412b;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.artical_area .artical_ctn .artical_titel a i{
+  margin-left: 10px;
+}
+.artical_area .artical_ctn .artical_titel .more_info{
+  margin-bottom: 40px;
+  padding-right: 20px;
+}
+.artical_area .artical_ctn .artical_titel .more_info span{
+  color:#6d6d6d;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.artical_area .artical_ctn .artical_titel .more_info .topic{
+  border-right: 1px solid #b4afaf;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+
+
+.podcast_area .podcast_ctn .pod_img{
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+.podcast_area .podcast_ctn .pod_img .overly_ctn{
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+  width: 100%;
+  padding: 20px 8px 30px 20px;
+  background-image: linear-gradient(#0000 50%, #000c);
+}
+.podcast_area .podcast_ctn .pod_img img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+.podcast_area .podcast_ctn .info{
+  margin-top: 30px;
+}
+
+
+.news_latter_area .news_bg{
+  background: #cf412b;
+  padding: 100px 40px;
+}
+
+.news_latter_area .news_bg h5{
+  font-size: 32px;
+  color: #fff;
+}
+.news_latter_area .news_bg p{
+  font-size: 16px;
+  color: #fff;
+}
+.news_latter_area .news_bg form input {
+  margin-bottom: 20px;
+  padding: 12px 20px;
+}
+.news_latter_area .news_bg form button{
+width: 100%;
+  text-transform: capitalize;
+  background: #000;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  padding: 11px;
+  border: transparent;
+  border-radius: 5px;
+
+}
+
+
+.footer_area{
+  background: #000;
+  padding:80px 20px 20px 20px ;
+}
+.footer_area .footer_top{
+  border-bottom: 1px solid #ffffff8e;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer_area .foter_menu{
+}
+.footer_area .foter_menu table{
+  float: right;
+  width: 80%;
+  border: 0 solid transparent;
+  margin-bottom: 0;
+}
+.footer_area .foter_menu table tr td a{
+   font-weight: 400;
+   font-size: 16px;
+   color: #fff;
+   text-decoration: none;
+   transition:0.4s;
+   -webkit-transition:0.4s;
+   -moz-transition:0.4s;
+   -ms-transition:0.4s;
+   -o-transition:0.4s;
+}
+.footer_area .foter_menu table tr td a:hover{
+  color: #cf412b;
+}
+
+.footer_area .footer_mid{
+  padding:40px 0 ;
+}
+
+.footer_area .footer_mid .f_mid_left h6{
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.footer_area .footer_mid .footer_links h5{
+  color: #fff;
+  text-transform: capitalize;
+}
+.footer_area .footer_mid .footer_links p{
+  color: #fff;
+}
+.footer_area .footer_mid .footer_links .right_links{
+  border-top: 1px solid #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+.footer_area .footer_mid .footer_links .socil_media{
+  color: #6d6d6d;
+  text-transform: capitalize;
+}
+.footer_area .footer_mid .footer_links .links ul li{
+  display: block;
+  margin-bottom: 10px;
+}
+.footer_area .footer_mid .footer_links ul li a{
+  color: #fff;
+  font-size: 14px;
+}
+.footer_area .footer_mid .footer_links .right_links ul li{
+  margin-right: 4px;
+}
+.footer_area .footer_mid .footer_links .right_links ul li:last-child{
+  margin-right: 0;
+}
+.footer_area .footer_mid .footer_links .right_links ul li a{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+ padding: 12px;
+}
+.footer_area .f_botm{
+  padding-top: 20px;
+}
+.f_btm_left p{
+  color: #fff;
+}
+.f_btm_right {
+  text-align: right;
+}
+.f_btm_right ul li{
+  margin-right: 10px;
+}
+.f_btm_right ul li:last-child{
+  margin-right: 0px;
+}
+.f_btm_right ul li a{
+  color: #fff;
+
 }
