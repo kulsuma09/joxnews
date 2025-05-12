@@ -172,10 +172,10 @@
      -o-transform:translateY(100%) ;
 }
 .offcanvas.offcanvas-top {
-  top: 12%;
-  height: 11vh;
+  top: 10%;
+  height: 13vh;
   background:#f9f9f9;
-  padding: 14px 0;
+  padding: 20px 0;
   z-index: 333;
 }
 .offcanvas.offcanvas-top .offcanvas-body ul li{

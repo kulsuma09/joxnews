@@ -9,6 +9,15 @@
     .header_area .cart_count{
     display: inline-block;
     }
+     .hero_left_ctn {
+    margin-bottom: 40px !important;
+  }
+      .latest_news_area .lt_news_ctn {
+      margin-bottom: 40px;
+    }
+    .blockchain_area .block_chain_text_ctn {
+      margin-bottom: 40px;
+    }
 }
 @media(max-width: 767.98px){
    .header_area .mb_logo{
@@ -21,6 +30,15 @@
     .header_area .cart_count{
     display: inline-block;
     }
+    .hero_left_ctn {
+      margin-bottom: 40px !important;
+    }
+    .latest_news_area .lt_news_ctn {
+      margin-bottom: 40px;
+    }
+        .blockchain_area .block_chain_text_ctn {
+      margin-top: 0px !important;
+    }
 }
 @media(max-width: 991.98px){
    .header_area .mb_logo{
@@ -32,10 +50,20 @@
     .header_area .cart_count{
     display: inline-block;
     }
+    .hero_left_ctn {
+  margin-bottom: 40px;
+}
+    .blockchain_area .block_chain_text_ctn {
+  margin-top: 0px !important ;
+}
 }
 @media (max-width: 1199.98px){
-
+.blockchain_area .block_chain_text_ctn {
+  margin-top: 0px !important;
+}
 }
 @media (max-width: 1249.98px){
-
+.blockchain_area .block_chain_text_ctn {
+  margin-top: 116px;
+}
 }
