@@ -222,7 +222,7 @@
 
 /* Hero Area CSS */
 .hero_area .hero_left_ctn .hero_img{
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 .hero_area .hero_left_ctn .hero_text_ctn .headline{
   font-size: 42px;
@@ -258,6 +258,18 @@
   -o-border-radius: 50%;
   margin-right: 10px;
 }
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .reporter .postion p{
+  margin-bottom: 6px;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .reporter .postion .name{
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .reporter .postion .date{
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #6d6d6d;
+}
 .hero_area .hero_right_ctn .sub_report{
   display: flex;
   justify-content: space-between;
@@ -269,17 +281,171 @@
   max-width: 200px;
   margin-right: 20px;
 }
+.latest_news_area .lt_news_ctn .titel h4{
+  font-size: 26px;
+}
+.technology_area .tech_ctn .tech_img .overly_ctn h4,
+.technology_area .tech_left .tech_img .overly_ctn h4,
+.editor_picks_area .editor_sub_ctn .titel h4,
+.latest_news_area .lt_news_ctn_sm .titel h4,
 .hero_area .hero_right_ctn .sub_report .titel h4{
   font-size: 18px;
   color: #000;
 }
+.technology_area .tech_ctn .tech_img .overly_ctn .more_info span,
+.technology_area .tech_left .tech_img .overly_ctn .more_info span,
+.editor_picks_area .editor_sub_ctn .titel .more_info span,
+.latest_news_area .lt_news_ctn_sm .titel .more_info span,
+.latest_news_area .lt_news_ctn .titel .more_info span,
 .hero_area .hero_right_ctn .sub_report .titel .more_info span{
   color:#6d6d6d;
   text-transform: capitalize;
   font-size: 16px;
 }
+.technology_area .tech_ctn .tech_img .overly_ctn .more_info .topic,
+.technology_area .tech_left .tech_img .overly_ctn .more_info .topic,
+.editor_picks_area .editor_sub_ctn .titel .more_info .topic,
+.latest_news_area .lt_news_ctn_sm .titel .more_info .topic,
+.latest_news_area .lt_news_ctn .titel .more_info .topic,
 .hero_area .hero_right_ctn .sub_report .titel .more_info .topic{
   border-right: 1px solid #b4afaf;
   padding-right: 10px;
   margin-right: 10px;
+}
+
+
+/* Section Titel */
+.section_titel{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.section_titel .left_titel h2{
+  font-size: 36px;
+  color: #000;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.section_titel .right p{
+  font-size: 14px;
+  color: #cf412b;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  margin-right: 8px;
+}
+.section_titel .right p i{
+  color: #cf412b;
+}
+
+
+/* Latest News Area CSS */
+.latest_news_area .lt_news_ctn img{
+  height: 570px;
+  width: 100%;
+  object-fit: fill;
+  margin-bottom: 26px;
+}
+.latest_news_area .lt_news_ctn .titel .more_info{
+  margin-bottom: 16px;
+}
+.latest_news_area .lt_news_ctn_sm{
+  border-bottom:1px solid #b4afaf;
+  padding-bottom: 20px;
+}
+.latest_news_area .lt_news_ctn_sm img{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.latest_news_area .lt_news_ctn_sm .titel .more_info{
+  margin-bottom: 16px;
+}
+
+
+/* Blockchain Area CSS */
+.blockchain_area{
+  background: #cf412b;
+}
+
+
+
+
+/* Editor Picks Area CSS */
+
+.editor_picks_area .editor_section_titel .left_titel h2{
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: left;
+}
+
+.editor_picks_area .editor_pick_left .left_top .titel_details{
+  font-size: 32px;
+  color: #000;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #b3aeae;
+  margin-bottom: 30px;
+}
+.editor_picks_area .editor_pick_left .sub_t{
+  font-size: 16px;
+  color: #6d6d6d;
+  margin-bottom: 0;
+}
+.editor_picks_area .editor_pick_right{
+  margin-bottom: 50px;
+}
+.editor_picks_area .editor_pick_right img{
+  height: 450px;
+  width: 100%;
+}
+
+.editor_picks_area .editor_sub_ctn img{
+  margin-bottom: 20px;
+}
+.editor_picks_area .editor_sub_ctn .titel .more_info{
+  margin-bottom: 20px;
+}
+
+
+.technology_area .tech_left .tech_img img{
+  height:400px;
+  width: 100%;
+}
+.technology_area .tech_ctn .tech_img img{
+  height: 280px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.technology_area .tech_left{
+  position: relative;
+}
+.technology_area .tech_left .overly_ctn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.technology_area .tech_left .overly_ctn .more_info,
+.technology_area .tech_ctn .overly_ctn .more_info{
+  margin-bottom: 20px;
+}
+
+
+.Staf_area .staf_ctn .stf_img img{
+  margin-bottom: 15px;
+}
+.Staf_area .staf_ctn .stf_img .info h6{
+
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #000;
+}
+.Staf_area .staf_ctn .stf_img .info p{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #6d6d6d;
+  
 }
