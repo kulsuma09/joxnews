@@ -127,6 +127,40 @@
 .header_area .right_ctn li{
   margin-right: 20px;
 }
+.header_area .right_ctn .on_mb{
+  display: none;
+  padding: 20px 0;
+  border-bottom: 1px solid #ad1616;
+  text-align: center;
+    transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.header_area .right_ctn .on_mb a{
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #fff;
+   transition:0.4s;
+   -webkit-transition:0.4s;
+   -moz-transition:0.4s;
+   -ms-transition:0.4s;
+   -o-transition:0.4s;
+}
+.header_area .right_ctn .on_mb a:hover{
+  color: #000;
+}
+.navbar-collapse.collapse.show {
+  background: #cf412b;
+  position: relative;
+  top: 22px !important;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  background: transparent;
+  border: none;
+}
 .header_area .right_ctn li a{
   text-transform: capitalize;
   font-size: 14px;

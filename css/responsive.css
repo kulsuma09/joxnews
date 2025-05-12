@@ -2,13 +2,24 @@
    .header_area .mb_logo{
         display: block;
     }
-
     .header_area .b_logo{
         display: none;
     }
     .header_area .cart_count{
     display: inline-block;
     }
+      .header_area .right_ctn .on_mb{
+        display: block;
+      }
+      .header_area .right_ctn li a {
+        text-align: center;
+      }
+      .header_area .right_ctn li .s_bscribe {
+          background: #f6f6f6;
+          color: #cf412b;
+          width: 50%;
+          margin: 0 auto;
+       }
      .hero_left_ctn {
     margin-bottom: 40px !important;
   }
@@ -27,8 +38,20 @@
     .header_area .b_logo{
         display: none;
     }
+      .header_area .right_ctn .on_mb{
+      display: block;
+    }
+    .header_area .right_ctn li a {
+        text-align: center;
+      }
     .header_area .cart_count{
     display: inline-block;
+    }
+    .header_area .right_ctn li .s_bscribe {
+      background: #f6f6f6;
+      color: #cf412b;
+      width: 50%;
+      margin: 0 auto;
     }
     .hero_left_ctn {
       margin-bottom: 40px !important;
@@ -50,6 +73,21 @@
     .header_area .cart_count{
     display: inline-block;
     }
+    .header_area .left_ctn {
+    display: none;
+  }
+    .header_area .right_ctn li a {
+      text-align: center;
+    }
+    .header_area .right_ctn li .s_bscribe {
+      background: #f6f6f6;
+      color: #cf412b;
+      width: 50%;
+      margin: 0 auto;
+    }
+  .header_area .right_ctn .on_mb{
+    display: block;
+  }
     .hero_left_ctn {
   margin-bottom: 40px;
 }
@@ -65,5 +103,9 @@
 @media (max-width: 1249.98px){
 .blockchain_area .block_chain_text_ctn {
   margin-top: 116px;
+}
+.offcanvas.offcanvas-top {
+  top: 6%;
+  height: 8vh;
 }
 }
