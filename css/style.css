@@ -219,3 +219,67 @@
 .header_area .view_menu table tr td a:hover{
   color: #cf412b;
 }
+
+/* Hero Area CSS */
+.hero_area .hero_left_ctn .hero_img{
+  margin-bottom: 20px;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .headline{
+  font-size: 42px;
+  font-weight: 500;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .report{
+  font-size: 16px;
+  color:#6d6d6d;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .report {
+  flex: 0.9;
+  margin-right: 20px;
+  border-right: 1px solid #d7d7d7;
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .reporter{
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+
+}
+.hero_area .hero_left_ctn .hero_text_ctn .report_detail .reporter img{
+  max-width: 45px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+}
+.hero_area .hero_right_ctn .sub_report{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 22px;
+  margin-bottom: 22px;
+}
+.hero_area .hero_right_ctn .sub_report img{
+  max-width: 200px;
+  margin-right: 20px;
+}
+.hero_area .hero_right_ctn .sub_report .titel h4{
+  font-size: 18px;
+  color: #000;
+}
+.hero_area .hero_right_ctn .sub_report .titel .more_info span{
+  color:#6d6d6d;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.hero_area .hero_right_ctn .sub_report .titel .more_info .topic{
+  border-right: 1px solid #b4afaf;
+  padding-right: 10px;
+  margin-right: 10px;
+}
