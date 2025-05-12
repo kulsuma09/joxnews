@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <title>joxnews</title>
+    <!--=== ALL CSS Here ===-->
+    <!--=== Font awesome icon ===-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--=== Bootstrap ===-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    <!-- Header Area Start -->
+    <header class="header_area">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+                <div class="logo mb_logo">
+                    <a class="navbar-brand" href="#"><img src="./images/jox_logo.png" alt="logo"></a>
+                </div>
+                <div class="rih">
+                    <a class="nav-link cart_count c_art" aria-current="page" href="#">Cart <span>0</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>               
+                <div class="collapse navbar-collapse menu_bar" id="navbarTogglerDemo02">
+                    <div class="left_ctn">
+                        <button class="btn top_tg" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fa-solid fa-bars"></i></button>
+                        <form class="d-flex" role="search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+                            <input class="form-control" type="search" placeholder="Search countries" aria-label="Search">
+                        </form>
+                    </div>
+                    <div class="logo b_logo">
+                        <a class="navbar-brand" href="#"><img src="./images/jox_logo.png" alt="logo"></a>
+                    </div>
+                    <ul class="navbar-nav mb-2 mb-lg-0 right_ctn">
+                        <li class="nav-item">
+                            <a class="nav-link c_art" aria-current="page" href="#">Cart <span>0</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link s_bscribe btn" href="#">subscribe</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            <div class="offcanvas offcanvas-top" data-bs-scroll="true" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-body text-center">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="">Latest News</a></li>
+                        <li><a href="">Author</a></li>
+                        <li><a href="">Subscription</a></li>
+                        <li><a href="">Podcast</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-responsive view_menu">
+                <table class="table">
+                    <tr>
+                        <td><a href="#">Entertainment</a></td>
+                        <td><a href="#">Sports</a></td>
+                        <td><a href="#">Politics</a></td>
+                        <td><a href="#">Business</a></td>
+                        <td><a href="#">Technology</a></td>
+                        <td><a href="#">Health</a></td>
+                    </tr>
+                </table>
+            </div>
+    </header>
+    <!-- Header Area End-->
+    <!-- Hero Area Start -->
+     <section class="hero_area section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                    <div class="hero_left_ctn">
+                        <div class="hero_img">
+                            <img src="./images/hero-main01.jpg" alt="image" class="img-fluid">
+                        </div>
+                        <div class="hero_text_ctn">
+                            <h1 class="headline">Global Climate Summit Yields Mixed Results on Key Agreements</h1>
+                            <div class="report_detail">
+                                <p class="report">The global stock market has reached unprecedented levels, buoyed by optimistic economic forecasts and strong corporate earnings.</p>
+                                <div class="reporter">
+                                    <img src="./images/team_4.jpg" alt="image">
+                                    <div class="postion">
+                                        <p class="name">Michael Brown</p>
+                                        <p class="date">December 16, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="hero_right_ctn">
+                        <div class="sub_report">
+                            <img src="./images/hero_right_2.jpg" alt="image">
+                            <div class="titel">
+                                <h4>New Regulations Put Tech Giants Under the Spotlight</h4>
+                                <div class="more_info">
+                                    <span class="topic">Technology</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 6 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub_report">
+                            <img src="./images/hero_right_1.jpg" alt="image">
+                            <div class="titel">
+                                <h4>New Regulations Put Tech Giants Under the Spotlight</h4>
+                                <div class="more_info">
+                                    <span class="topic">Health</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 7 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub_report">
+                            <img src="./images/hero_right_4.jpg" alt="image">
+                            <div class="titel">
+                                <h4>New Regulations Put Tech Giants Under the Spotlight</h4>
+                                <div class="more_info">
+                                    <span class="topic">Business</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sub_report">
+                            <img src="./images/hero_right_3.jpg" alt="image">
+                            <div class="titel">
+                                <h4>New Regulations Put Tech Giants Under the Spotlight</h4>
+                                <div class="more_info">
+                                    <span class="topic">Technology</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 5 Min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- Hero Area End -->
+     <!-- Latest News Area Start -->
+      <section class="latest_news_area">
+        <div class="container">
+            <div class="section_titel">
+                <div class="left_titel">
+                    <h2>Latest News</h2>
+                </div>
+                <div class="right">
+                    <p>view all <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="lt_news_ctn">
+                        <img src="./images/l_news_01.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Politics</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                            </div>
+                            <h4>Global Summit 2024: Leaders Address Climate, Trade, and Security Challenges</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="lt_news_ctn mb-4">
+                        <img src="./images/l_news_21jpg.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 5 Min</span>
+                            </div>
+                            <h4>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h4>
+                        </div>
+                    </div>
+                    <div class="lt_news_ctn">
+                        <img src="./images/l_news_22.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Health</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 5 Min</span>
+                            </div>
+                            <h4>The Role of Fitness in Chronic Disease Management</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                    <div class="lt_news_ctn mb-4">
+                        <img src="./images/l_news_31.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 9 Min</span>
+                            </div>
+                            <h4>Exploring the Future of Space Exploration Beyond Mars</h4>
+                        </div>
+                    </div>
+                    <div class="lt_news_ctn">
+                        <img src="./images/l_news_32.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 6 Min</span>
+                            </div>
+                            <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Latest News Area End -->
+     <!-- Blockchain Area Start -->
+      <section class="blockchain_area">
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="block_chain_text_ctn">
+                        <h6>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h6>
+                        <p>Smart city initiatives are leveraging AI, IoT, and data analytics to create sustainable spaces.</p>
+                        <div class="reporter">
+                            <img src="./images/blockchain_man.jpg" alt="image">
+                            <div class="postion">
+                                <p class="name">Ethan Collins</p>
+                                <p class="date">Published Jan 11, 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                    <div class="block_chain_img_ctn">
+                        <img src="./images/blockchain.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+         </div>
+      </section>
+     <!-- Blockchain Area Start -->
+     <!-- Editor Picks Area Start -->
+      <section class="editor_picks_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12">
+                    <div class="editor_pick_left">
+                        <div class="left_top">
+                            <h3 class="titel">Editors Pick</h3>
+                            <p class="titel_details">5G Expansion: What It Means for Consumers and Businesses</p>
+                        </div>
+                        <p>From faster downloads to smarter cities, 5G is reshaping global connectivity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 col-sm-12 col-sm">
+                    <div class="editor_pick_right">
+                        <img src="./images/editorspick-main01.jpg" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div class="editor_sub_ctn mb-sm-4">
+                        <img src="./images/editor-thumb-1.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 6 Min</span>
+                            </div>
+                            <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div class="editor_sub_ctn mb-sm-4">
+                        <img src="./images/editor-thumb-2.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 6 Min</span>
+                            </div>
+                            <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                    <div class="editor_sub_ctn mb-sm-4">
+                        <img src="./images/editor-thumb-3.jpg" alt="image" class="img-fluid">
+                        <div class="titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time"><i class="fa-regular fa-clock"></i> 6 Min</span>
+                            </div>
+                            <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Editor Picks Area End -->
+     <!-- Technology Area Start -->
+     <section class="technology_area">
+        <div class="container">
+            <div class="section_titel">
+                <div class="left_titel">
+                    <h2>Technology</h2>
+                </div>
+                <div class="right">
+                    <p>view all <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="tech_left">
+                        <div class="tech_img">
+                            <img src="./images/podcast-main-01.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Entertainment</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 5 Min</span>
+                                </div>
+                                <h4>5G Expansion: What It Means for Consumers and Businesses</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="tech_ctn">
+                        <div class="tech_img">
+                            <img src="./images/podcast-main-02.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Sports</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                                </div>
+                                <h4>Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="tech_ctn">
+                        <div class="tech_img">
+                            <img src="./images/podcast-main-03.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Politics</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                                </div>
+                                <h4>Exploring the Future of Space Exploration Beyond Mars</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Technology Area End -->
+     <!-- Staf Writers Area Start -->
+    <section class="Staf_area">
+        <div class="container">
+            <div class="section_titel">
+                <div class="left_titel">
+                    <h2>Staff Writers</h2>
+                </div>
+                <div class="right">
+                    <p>view all <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="staf_ctn">
+                        <div class="stf_img">
+                            <img src="./images/team_2.jpg" alt="" class="img-fluid">
+                            <div class="info">
+                                <h6>Ethan Collins</h6>
+                                <p>Senior Writer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="staf_ctn">
+                        <div class="stf_img">
+                            <img src="./images/team_3.jpg" alt="" class="img-fluid">
+                            <div class="info">
+                                <h6>Ethan Collins</h6>
+                                <p>Senior Writer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="staf_ctn">
+                        <div class="stf_img">
+                            <img src="./images/team_1.jpg" alt="" class="img-fluid">
+                            <div class="info">
+                                <h6>Ethan Collins</h6>
+                                <p>Senior Writer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                    <div class="staf_ctn">
+                        <div class="stf_img">
+                            <img src="./images/team_4.jpg" alt="" class="img-fluid">
+                            <div class="info">
+                                <h6>Ethan Collins</h6>
+                                <p>Senior Writer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Staf Writers Area End -->
+     <!-- Articals & Resources Area Start -->
+      <section class="artical_area">
+        <div class="container">
+            <div class="artical_heading">
+                <h2>Articles & Resources</h2>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="artical_ctn">
+                        <div class="artical_titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time">December 16, 2024</span>
+                                <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                            </div>
+                            <a href="#" class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="artical_img">
+                            <img src="./images/tech_artical.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="artical_ctn">
+                        <div class="artical_titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time">December 16, 2024</span>
+                                <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                            </div>
+                            <a href="#" class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="artical_img">
+                            <img src="./images/health_artical.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="artical_ctn">
+                        <div class="artical_titel">
+                            <div class="more_info">
+                                <span class="topic">Technology</span>
+                                <span class="p_time">December 16, 2024</span>
+                                <h4>The Science of Sleep: How to Rest Better in a 24/7 World</h4>
+                            </div>
+                            <a href="#" class="btn">read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                        <div class="artical_img">
+                            <img src="./images/business_artical.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Articals & Resources Area End -->
+     <!-- Newslatter Area Start -->
+      <section class="news_latter_area">
+        <div class="container">
+            <div class="news_bg">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <h5>Stay informed with our latest news and updates.</h5>
+                        <p>Get breaking news and curated stories delivered to your inbox every day. Be the first to know what’s happening around the world</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <form action="">
+                            <input type="email" name="" id="" placeholder="Enter your email" class="form-control">
+                            <button type="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Newslatter Area End -->
+     <!-- Podcast Area Start -->
+      <section class="podcast_area">
+        <div class="container">
+            <div class="section_titel">
+                <div class="left_titel">
+                    <h2>Podcast</h2>
+                </div>
+                <div class="right">
+                    <p>view all <i class="fa-solid fa-arrow-right-long"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="podcast_ctn">
+                        <div class="pod_img">
+                            <img src="./images/podcast-main-01.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Entertainment</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 5 Min</span>
+                                </div>
+                                <h4>E-commerce Growth: Transforming Retail in 2024</h4>
+                            </div>
+                            <div class="info">
+                                <h6>Laura Bennett</h6>
+                                <p>Editorialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="podcast_ctn">
+                        <div class="pod_img">
+                            <img src="./images/podcast-main-02.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Sports</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                                </div>
+                                <h4>The challenges and opportunities of professional athletes transitioning to life after sports</h4>
+                            </div>
+                            <div class="info">
+                                <h6>Laura Bennett</h6>
+                                <p>Editorialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="podcast_ctn">
+                        <div class="pod_img">
+                            <img src="./images/podcast-main-03.jpg" alt="" class="img-fluid">
+                            <div class="overly_ctn">
+                                <div class="more_info">
+                                    <span class="topic">Politics</span>
+                                    <span class="p_time"><i class="fa-regular fa-clock"></i> 8 Min</span>
+                                </div>
+                                <h4>The Future of Remote Work: Adapting to a Hybrid World</h4>
+                            </div>
+                            <div class="info">
+                                <h6>Sofia Ramirez</h6>
+                                <p>Author</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+     <!-- Podcast Area End -->
+     <!-- Footer Area Start -->
+      <footer class="footer_area">
+        <div class="container">
+            <div class="footer_top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                        <div class="footer_logo">
+                            <img src="./images/jox_footer_logo.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+                        <div class="table-responsive foter_menu">
+                            <table class="table">
+                                <tr>
+                                    <td><a href="#">Entertainment</a></td>
+                                    <td><a href="#">Sports</a></td>
+                                    <td><a href="#">Politics</a></td>
+                                    <td><a href="#">Business</a></td>
+                                    <td><a href="#">Technology</a></td>
+                                    <td><a href="#">Health</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_mid">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="f_mid_left">
+                            <h6></h6>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="./images/footer-image-01.jpg" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/footer-image-02.jpg" alt="image" class="img-fluid">
+                            </div>
+                            <div class="col-4">
+                                <img src="./images/footer-image-03.jpg" alt="image" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="footer_links">
+                                    <h5>pages</h5>
+                                    <div class="links">
+                                        <ul>
+                                            <li><a href="#">About Us</a></li>
+                                            <li><a href="#">News</a></li>
+                                            <li><a href="#">Authors</a></li>
+                                            <li><a href="#">Podcast</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer_links">
+                                    <h5>Conatc Us</h5>
+                                    <p class="email">hello@example.com</p>
+                                    <p class="num">+1 (406) 555-0120</p>
+                                    <div class="links">
+                                        <p class="socil_media">Follow Us</p>
+                                        <ul>
+                                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f_botm">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="f_btm_left">
+                            <p>&copy;2025 Joxnews-Work by Onmix. Made with  Webflow.</p>
+                        </div>
+                    </div>
+                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="f_btm_right">
+                            <ul>
+                                <li><a href="#">Style Guide</a></li>
+                                <li><a href="#">Change Log</a></li>
+                                <li><a href="#">Licenses</a></li>
+                            </ul>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+     <!-- Footer Area End -->
+
+
+       <!--=== ALL JS Here ===-->
+	<!--=== Bootstrap js ===-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

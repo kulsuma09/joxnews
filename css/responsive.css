@@ -1,0 +1,41 @@
+@media (max-width: 575.98px){
+   .header_area .mb_logo{
+        display: block;
+    }
+
+    .header_area .b_logo{
+        display: none;
+    }
+    .header_area .cart_count{
+    display: inline-block;
+    }
+}
+@media(max-width: 767.98px){
+   .header_area .mb_logo{
+        display: block;
+    }
+
+    .header_area .b_logo{
+        display: none;
+    }
+    .header_area .cart_count{
+    display: inline-block;
+    }
+}
+@media(max-width: 991.98px){
+   .header_area .mb_logo{
+        display: block;
+    }
+    .header_area .b_logo{
+        display: none;
+    }
+    .header_area .cart_count{
+    display: inline-block;
+    }
+}
+@media (max-width: 1199.98px){
+
+}
+@media (max-width: 1249.98px){
+
+}

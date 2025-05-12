@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+    color:#000;
+    background-color: #fffefa;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #3A3A3A;
+    line-height: 1.4;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    text-decoration: none;
+  }
+  
+  .btn.focus,
+  .btn:focus {
+    outline: none;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .form-control:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  
+  .section_padding {
+    padding: 60px 20px 80px 20px;
+  }
+  .section_padding_2{
+    padding: 80px 20px;
+  }
+
+/* Header Area CSS */
+.header_area .navbar{
+    padding:20px 0;
+    border-bottom: 1px solid #c3c2c2;
+    z-index: 999;
+    position: relative;
+}
+.header_area .left_ctn form{
+    position: relative;
+}
+.header_area .left_ctn form i{
+    font-size: 12px;
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    color: #999;
+}
+.header_area .left_ctn form input{
+   padding: 6px 20px 6px 40px;
+   border: 1px solid #3A3A3A;
+}
+.header_area .left_ctn form input::placeholder{
+  color: #999;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.header_area .left_ctn form input:focus{
+  border: 1px solid #3A3A3A;
+}
+.header_area .left_ctn .btn.top_tg{
+  border: none;
+}
+.header_area .left_ctn .btn.top_tg i{
+    font-size: 20px;
+}
+.header_area .menu_bar{
+    justify-content: space-between;
+}
+.header_area .mb_logo{
+    display: none;
+}
+.header_area .cart_count{
+    display: none;
+}
+.header_area .left_ctn{
+    display: flex;
+    flex: 0.3;
+}
+.header_area .left_ctn .top_tg{
+    margin-right: 20px;
+}
+.header_area .left_ctn .btn.top_tg:active {
+  border: none;
+}
+.header_area .right_ctn li{
+  margin-right: 20px;
+}
+.header_area .right_ctn li a{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.header_area .rih .c_art,
+.header_area .right_ctn li .c_art{
+  color: #000;
+}
+.header_area .rih .c_art span,
+.header_area .right_ctn li .c_art span{
+  background:#cf412b;
+  color: #fff;
+  padding: 3px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.header_area .right_ctn li .s_bscribe{
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.offcanvas-backdrop.show {
+     opacity: 0;
+     transform:translateY(-100%) ;
+     -webkit-transform:translateY(-100%) ;
+     -moz-transform:translateY(-100%) ;
+     -ms-transform:translateY(-100%) ;
+     -o-transform:translateY(-100%) ;
+}
+.offcanvas-backdrop.hiding {
+     transform:translateY(100%) ;
+     -webkit-transform:translateY(100%) ;
+     -moz-transform:translateY(100%) ;
+     -ms-transform:translateY(100%) ;
+     -o-transform:translateY(100%) ;
+}
+.offcanvas.offcanvas-top {
+  top: 12%;
+  height: 11vh;
+  background:#f9f9f9;
+  padding: 14px 0;
+  z-index: 333;
+}
+.offcanvas.offcanvas-top .offcanvas-body ul li{
+  margin-right: 20px;
+}
+.offcanvas.offcanvas-top .offcanvas-body ul li:last-child{
+  margin-right: 0;
+}
+.offcanvas.offcanvas-top .offcanvas-body ul li a{
+  color: #000;
+  text-transform: capitalize;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.offcanvas.offcanvas-top .offcanvas-body ul li a:hover{
+  color: #cf412b;
+}
+.header_area .view_menu{
+  border-bottom: 1px solid #c3c2c2;
+  padding: 25px 0;
+}
+.header_area .view_menu table{
+  margin: 0 auto;
+  width: 42%;
+  border: 0 solid #fff0;
+}
+.header_area .view_menu table tr td a{
+   font-weight: 400;
+   font-size: 16px;
+   color: #000;
+   text-decoration: none;
+   transition:0.4s;
+   -webkit-transition:0.4s;
+   -moz-transition:0.4s;
+   -ms-transition:0.4s;
+   -o-transition:0.4s;
+}
+.header_area .view_menu table tr td a:hover{
+  color: #cf412b;
+}
